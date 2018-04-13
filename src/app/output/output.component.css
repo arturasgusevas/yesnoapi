@@ -1,0 +1,17 @@
+.answer{
+  position: relative;
+  margin-top: 20px;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+}
+
+p{
+  position: absolute;
+  font-size: 80px;
+  font-weight: 600;
+  color: white;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

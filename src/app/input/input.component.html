@@ -1,0 +1,3 @@
+<input type="text" (input)="toggle($event.target.value)">
+<button type="button" (click)="getAnswer()" name="button" [disabled]="disabled">Get Answer</button>
+<app-output [answer]="answer"></app-output>
